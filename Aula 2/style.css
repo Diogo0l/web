@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+h3{
+    font-family: sans-serif;
+    color: white;
+}
+li{
+    font-family: sans-serif;
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    color: white;
+}
+th{
+    color: white;
+    font-family: sans-serif;
+}
