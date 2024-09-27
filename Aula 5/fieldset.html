@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Idade</td>
+                    <td><input type="number" min="0" max="120"></td>
+                </tr>
+                <tr>
+                    <td>Data de nascimento:</td>
+                    <td><input type="date"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <table>
+                <tr>
+                    <td>Escolaridade</td>
+                    <td><select>
+                            <option>Fundamental 2</option>
+                            <option>Ensino Médio</option>
+                            <option>Ensino Superior</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Tem experiência em TI</td>
+                    <td><input type="radio" name="yes">Sim
+                    <input type="radio" name="yes">Não</td>
+                </tr>
+                <tr>
+                    <td>Disponibilidade</td>
+                    <td><input type="checkbox" name="m">Manhã
+                    <input type="checkbox" name="t">Tarde
+                    <input type="checkbox" name="n">Noite</td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
