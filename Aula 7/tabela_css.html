@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            /*formata as tags table, th e td*/
+            border: 1px solid;
+            /*cria uma borda solida de 1 pixel*/
+            text-align: center;
+            /*alinha o texto ao centro*/
+            padding: 5px;
+            /*serve para modificar o preenchimento*/
+        }
+
+        tr:nth-child(even) {
+            /*formata a tag tr, e o nth-child usa apenas um argumento, que representa o padrão usado para selecionar elementos*/
+            background-color: rgb(235, 228, 219);
+            /*muda a cor do fundo*/
+        }
+
+        tr:hover {
+            /*formata a tag tr, com o hover*/
+            background-color: red;
+            /*muda o fundo para vermelho para quando passar o mouse em cima*/
+            color: white;
+            /*muda a cor da fonte para branco*/
+        }
+
+        table {
+            /*formata a tag table*/
+            width: 90%;
+            /*ajusta a largura em 90%*/
+            margin-left: 5%;
+            /*ajusta a largura para a esquerda em 5%*/
+            margin-right: 5%;
+            /*ajuda a largura para a direita em 5%*/
+            margin-top: 2%;
+            /*ajusta a largura de cima em 5%*/
+            border-collapse: collapse;
+            /*deixa a borda em colapso*/
+        }
+
+        img {
+            /*formata a tag img*/
+            width: 80px;
+            /*coloca uma largura de 80 pixeis*/
+            vertical-align: middle;
+            /*alinha a imagem do meio verticalmente*/
+        }
+
+        th {
+            /*formata a tag th*/
+            background-color: red;
+            /*muda o fundo para vermelho*/
+            color: white;
+            /*muda a cor da fonte para branco*/
+            font-size: x-large;
+            /*ajusta o tamanho da fonte*/
+        }
+
+        .titulo {
+            /*formata a classe titulo*/
+            font-weight: bolder;
+            /*deixa a fonte em negrito*/
+            text-transform: uppercase;
+            /*transforma o texto em caixa alta (maiusculo)*/
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">Quadro de medalhas paraolimpíadas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+            <td class="titulo">Colocação</td>
+            <td class="titulo">País</td>
+            <td class="titulo">Ouro</td>
+            <td class="titulo">Prata</td>
+            <td class="titulo">Bronze</td>
+            <td class="titulo">Total</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="./img/china.png" alt="brasil""></td>
+                <td>94</td>
+                <td>76</td>
+                <td>50</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src=" ./img/reino-unido.png" alt="reino-unido"></td>
+                <td>49</td>
+                <td>44</td>
+                <td>31</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="./img/estados-unidos.png" alt="estados-unidos"></td>
+                <td>36</td>
+                <td>42</td>
+                <td>27</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="./img/holanda.png" alt="holanda"></td>
+                <td>27</td>
+                <td>17</td>
+                <td>12</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="./img/brasil.jpg" alt="brasil"></td>
+                <td>25</td>
+                <td>26</td>
+                <td>38</td>
+                <td>89</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
