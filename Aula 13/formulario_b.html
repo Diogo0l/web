@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Senac</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar bg-light navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="https://www.ce.senac.br/" class="navbar-brand">
+                <img src="/web2/web/assets/senac.png" alt="senac-logo" width="85">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Planos</a>
+            </li>
+
+            <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Lógica de programação</a>
+                    <a class="dropdown-item" href="#">Webdesigner</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Programador Web</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Dropdown Link</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Action
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <style>
+        body {
+            background-color: #005496;
+        }
+    </style>
+
+    <div class="container card mt-4">
+        <form>
+            <div class="form-group mt-2">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="exemplo@gmail.com">
+            </div>
+            <div class="form-group mt-2">
+                <label>Senha</label>
+                <input type="password" class="form-control">
+            </div>
+            <div class="form-check mt-2">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Você concorda em receber nosso email com notícias e novidades?</label>
+            </div>
+            <input type="submit" class="btn btn-primary mt-5 mb-3" value="Salvar">
+        </form>
+    </div>
+</body>
+
+</html>

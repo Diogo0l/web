@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine 248</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #f8f9fa">
+        <div class="container-fluid">
+            <a href="http://localhost:5500/web2/web/vitrine248/vitrine248.html#" class="navbar-brand">
+                <img src="/web2/web/assets/logo-vitrine.png" alt="senac-logo" width="85">
+            </a>
+    </nav>
+
+    <ul>
+        <li><a href="https://google.com/"></a>Início</li>
+        <li><a href="#"></a>Sobre nós</li>
+        <li><a href="#"></a>Contato</li>
+    </ul>
+
+    <main> <!-- Início do conteúdo principal da página -->
+
+        <div id="home" class="tab-content active"> <!-- Conteúdo da aba "Home", ativo por padrão -->
+            <h2>Vitrine 248</h2> <!-- Título da seção -->
+            <p>Seja bem-vindo! Aqui você encontrará informações sobre nós e como entrar em contato.</p>
+            <!-- Descrição da aba -->
+            <img src="https://via.placeholder.com/600x300" alt="Imagem de exemplo" class="tab-image">
+            <!-- Imagem de exemplo para a aba -->
+        </div>
+
+        <div id="sobre" class="tab-content"> <!-- Conteúdo da aba "Sobre Nós" -->
+            <h2>Sobre Nós</h2> <!-- Título da seção -->
+            <p>Somos uma empresa dedicada a proporcionar a melhor experiência aos nossos clientes. Nossa equipe é
+                composta por profissionais qualificados e apaixonados pelo que fazem.</p> <!-- Descrição da empresa -->
+            <ul> <!-- Lista não ordenada -->
+                <li>Missão: Oferecer serviços de qualidade.</li> <!-- Item da lista -->
+                <li>Visão: Ser referência no mercado.</li> <!-- Item da lista -->
+                <li>Valores: Integridade, Inovação e Excelência.</li> <!-- Item da lista -->
+            </ul>
+            <img src="https://via.placeholder.com/600x300" alt="Sobre nós" class="tab-image">
+            <!-- Imagem representativa da aba -->
+        </div>
+
+        <div id="contato" class="tab-content"> <!-- Conteúdo da aba "Contato" -->
+            <h2>Contato</h2> <!-- Título da seção -->
+            <p>Preencha o formulário abaixo para entrar em contato conosco:</p> <!-- Instruções para o formulário -->
+            <form id="contact-form"> <!-- Início do formulário com um ID específico -->
+                <label for="name">Nome:</label> <!-- Rótulo para o campo de nome -->
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                <!-- Campo de entrada para o nome, obrigatório -->
+
+                <label for="email">Email:</label> <!-- Rótulo para o campo de e-mail -->
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+                <!-- Campo de entrada para o e-mail, obrigatório -->
+
+                <label for="message">Mensagem:</label> <!-- Rótulo para o campo de mensagem -->
+                <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                <!-- Área de texto para a mensagem, obrigatória -->
+
+                <input type="submit" value="Enviar"> <!-- Botão de envio do formulário -->
+            </form>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
