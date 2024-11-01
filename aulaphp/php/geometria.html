@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas geométicas</title>
+</head>
+<body>
+    <form action="geometria.php" method="post"> 
+        <fieldset>
+            <legend>Calcular área</legend>
+
+            Forma: <select name="forma">
+                <option value="retangulo">Retângulo</option>
+                <option value="triangulo">Triângulo</option>
+            </select> <br>
+
+            Base: <input type="number" name="base"><br>
+            Altura: <input type="number" name="altura"><br>
+            <input type="submit" value="Calcular">
+        </fieldset>
+    </form>
+</body>
+</html>
