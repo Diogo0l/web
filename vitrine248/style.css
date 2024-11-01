@@ -3,18 +3,21 @@ body {
     color: black;
 }
 
+
+
 li a{
-    text-decoration: none;
-    text-decoration-line: none;
-    position: relative;
-    width: 5%;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+    float: right;
 }
 
 li a:hover{
-    color: blue;
+    color: rgb(121, 61, 218);
 }
 
-.title {
+title {
     background-color: #E75193;
 }
 
