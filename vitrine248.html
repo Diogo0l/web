@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine 248</title>
+    <link rel="stylesheet" href="/aulaphp/vitrine248/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-principal">
+        <div class="container px-10">
+            <a class="navbar-brand" href="#!"><img src="/web2/web/assets/logo-vitrine.png" alt="logo" width="100"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="vitrine248.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page"
+                            href="insertVitrine.html.php">Cadastro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+     <header class="bg-dark py-5" >
+            <div class="container-fluid">
+                <div class="row gx-5">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class=" fw-bolder text-white mb-2">Apresente seu negócio de uma maneira totalmente nova</h1>
+                            <p class="lead text-white-50 mb-4">Crie e personalize rapidamente sites responsivos para dispositivos móveis com o Bootstrap, o kit de ferramentas de front-end de código aberto mais popular do mundo!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Começar</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Saber mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <div class="container-fluid"></div>
+
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" href="#">Inicio</a>
+                    <div class="dropdown-divider"></div>
+                </li>
+            </ul>
+        </div>
+
+        <form action="loginVitrine.php" method="post" target="_blank">
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="#">Login</a>
+                        <div class="dropdown-divider"></div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+
+    <main>
+
+        <section class="py-3 border-bottom" id="saibamais">
+            <div class="container-fluid px-1 my-3 text-center">
+                <h2>Sobre nós</h2>
+                <p>Somos uma empresa dedicada a proporcionar a melhor experiência aos nossos clientes. Nossa equipe é
+                    composta por profissionais qualificados e apaixonados pelo que fazem.</p>
+                <img src="https://via.placeholder.com/600x300" alt="Sobre nós" class="tab-image">
+            </div>
+        </section>
+
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+                <section class="py-5 border-bottom" id="contato">
+                    <form id="contactForm">
+                        <div class="text-center">
+                            <h2>Contato</h2>
+                            <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Preencha cd-gridred"
+                                    required />
+                                <label for="name">Nome</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">É obrigatório colocar um
+                                    nome.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="nome@exemplo.com"
+                                    required />
+                                <label for="email">Email</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">É obrigatório colocar um
+                                    email.
+                                </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Esse email não é válido.
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="password" type="password" placeholder="senha"
+                                    required />
+                                <label for="password">Senha</label>
+                                <div class="invalid-feedback" data-sb-feedback="password:required">É obrigatório uma
+                                    senha.</div>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        </form>
+        </section>
+
+        <footer class="py-5 bg-dark">
+            <div class="container px-5">
+                <p class="m-0 text-center text-white">Copyright. Todos os direitos reservados. &copy; Sitezão Doidera
+                    2024.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

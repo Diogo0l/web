@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box; /* Define o modelo de box-sizing para incluir padding e bordas no tamanho total dos elementos */
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove preenchimento padrão de todos os elementos */
+}
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão da página */
+    color: black;
+}
+.navbar-principal{
+    background-color: gray;
+}
+.navbar-secundario{
+    display: inline-block;
+    float: right;
+}
+.container{
+    display: grid;
+    float: right;
+}
+.navbar-nav{
+    padding-right: -10px;
+    float: right;
+}
+.dropdown-item{
+    display: flex;
+    flex-direction: column;
+}
+li a{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+    float: right;
+}
+ul li a:hover{
+    color: rgb(121, 61, 218);
+    transition: 0.3s all;
+}
+title {
+    background-color: #E75193;
+}
+.tab-button {
+    flex: 1;
+    /* Faz cada botão de aba ocupar espaço igual */
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* footer {
+    background-color: #007BFF; /* Define a cor de fundo do footer 
+    color: white;  Define a cor do texto do footer como branco 
+    text-align: center; /* Centraliza o texto no footer 
+    padding: 15px; /* Adiciona espaçamento interno ao footer 
+    position: relative; /* Define a posição como relativa para permtir o uso de z-index 
+    margin-top: 20px; /* Adiciona margem acima do footer 
+    border-radius: 0 0 8px 8px; /* Arredonda os cantos inferiores do footer 
+    animation: fadeIn 0.5s ease-in-out; /* Aplica uma animação de fade-in ao footer 
+    z-index: 1; /* Define a camada do footer, acima do fundo 
+}
